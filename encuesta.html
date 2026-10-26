@@ -46,11 +46,11 @@
       <h1>Transferplay</h1>
       <h2>"El mercado no para. Nosotros tampoco"</h2>
       <p>En esta sección, el público podrá participar en una encuesta para elegir los mejores fichajes de la temporada 26/27. A través de sus votos, se buscará conocer la opinión de los aficionados y destacar las incorporaciones más relevantes del fútbol mundial.</p>
-      <h2>encuesta o datos de las entradas</h2>
-      <p>ingrese sus datos para realizar la reserva de la entrada</p>
+      <h2>Mejores fichajes temporada 26/27</h2>
+      <p>Elija a los mejores fichajes de la temporada en la encuesta</p>
       <section>
  <div id="formulario">
-  <h2>tus datos</h2>
+  <h2>Opciones y categorías</h2>
 
   <form action="#">
      <label for="formnombre">Nombre</label>
@@ -65,13 +65,23 @@
 
           <input type="email" placeholder="correotransferplay@gmail.com">
           <input type="radio" id="formf" name="formsexo" value="Femenino">
-          <label for="fem">Femenino</label>
+          <label for="fem"></label>
           <input type="radio" id="formm" name="formsexo" value="Masculino">
           <label for="mas">Masculino</label>
           <input type="radio" id="formn" name="formsexo" value="Nodecirlo">
           <label for="noinf">Prefiero no decirlo</label><br> <br>
 
-          <label for="ubicacion">Seleccione una ubicación</label><br>
+          <label for="ubicacion">Seleccione un jugador</label><br>
+          <select name="fichajesarqueros26/27" id="formarq">
+            <option value="dibu">Emiliano Martinez</option>
+            <option value="suzuki">Zion Suzuki</option>
+            <option value="brey">Leandro Brey</option>
+            <option value="benitez">Walter Benítez</option>
+            <option value="valles">Álvaro Vallés</option>
+            <option value="otraopcion">Otro</option>
+          </select>
+
+          <label for="ubicacion">Seleccione un jugador</label><br>
           <select name="ubicacion" id="formubi">
             <option value="plateaa">Platea Alta</option>
             <option value="plateam">Platea Media</option>
@@ -79,6 +89,7 @@
             <option value="popular">Popular</option>
             <option value="palco">Palco</option>
           </select>
+
 
           <textarea name="areatexto" id="formtext" cols="30" rows="5"></textarea>
 
