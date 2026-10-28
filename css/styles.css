@@ -181,6 +181,20 @@ h1 {
   font-size: 1.5rem;
 }
 
+table,
+td,
+th {
+  background-color: rgb(33, 4, 4) 8px solid;
+}
+
+#ligas, #ligas tr, #ligas td, #ligas th{
+  border: solid crimson 3px;
+  border-collapse: collapse;
+}
+#ligas img{
+  width: 200px;
+}
+
 
 footer {
   background-color: #ffffff;
