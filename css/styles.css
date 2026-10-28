@@ -176,6 +176,129 @@ body {
   line-height: 1.6;
 }
 
+/* Tarjeta del formulario */
+#formulario {
+  max-width: 700px;
+  margin: 25px auto;
+  padding: 32px;
+  background: #14231c;
+  border: 1px solid #2c4938;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Títulos de las secciones */
+#formulario h2 {
+  color: #6ee7a0;
+  font-size: 24px;
+  margin: 12px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #2c4938;
+}
+
+/* Texto introductorio */
+#formulario p {
+  color: #c5d3ca;
+  margin-bottom: 24px;
+}
+
+/* Etiquetas */
+#formulario label {
+  display: block;
+  margin: 12px 0 6px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* Campos de texto y correo */
+#formulario input[type="text"],
+#formulario input[type="email"] {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 0 0 12px;
+  box-sizing: border-box;
+  border: 1px solid #405749;
+  border-radius: 8px;
+  background: #20332a;
+  color: white;
+  font-size: 15px;
+}
+
+/* Texto de ayuda dentro de los campos */
+#formulario input::placeholder {
+  color: #b5c5bb;
+}
+
+/* Listas de jugadores */
+#formulario select {
+  width: 100%;
+  padding: 12px;
+  margin: 0 0 12px;
+  border: 1px solid #405749;
+  border-radius: 8px;
+  background: #20332a;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Resaltar el campo seleccionado */
+#formulario input:focus,
+#formulario select:focus {
+  outline: 2px solid #6ee7a0;
+  outline-offset: 2px;
+}
+
+/* Opciones de género */
+#formulario input[type="radio"] {
+  accent-color: #36c879;
+  margin: 10px 5px 10px 0;
+}
+
+#formulario input[type="radio"] + label {
+  display: inline-block;
+  margin: 0 14px 8px 0;
+  font-weight: normal;
+}
+
+/* Botón para votar */
+#formulario input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 9px;
+  background: #36c879;
+  color: #07130c;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+#formulario input[type="submit"]:hover {
+  background: #6ee7a0;
+  transform: translateY(-2px);
+}
+
+/* Adaptación a celulares */
+@media (max-width: 600px) {
+  body {
+    padding: 12px;
+  }
+
+  #formulario {
+    padding: 20px 16px;
+    margin: 10px auto;
+  }
+
+  #formulario h2 {
+    font-size: 21px;
+  }
+}
+
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
